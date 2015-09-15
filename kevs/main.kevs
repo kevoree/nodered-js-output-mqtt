@@ -1,0 +1,13 @@
+add node0 : JavascriptNode
+add sync : WSGroup
+add node0.mqttOut : org.nodered.MQTTOut
+
+attach node0 sync
+
+set node0.logLevel = 'DEBUG'
+set node0.mqttOut.broker = 'mqtt.kevoree.org'
+set node0.mqttOut.port = '1883'
+//set node0.mqttOut.clientID = ''
+//set node0.mqttOut.username = ''
+//set node0.mqttOut.password = ''
+set node0.mqttOut.topic = 'test'

@@ -1,0 +1,159 @@
+{
+    "class": "root:org.kevoree.ContainerRoot@0.157574469456449151442305460586",
+    "generated_KMF_ID": "0.157574469456449151442305460586",
+    "nodes": [],
+    "repositories": [],
+    "hubs": [],
+    "mBindings": [],
+    "groups": [],
+    "packages": [
+        {
+            "class": "org.kevoree.Package@org",
+            "name": "org",
+            "packages": [
+                {
+                    "class": "org.kevoree.Package@nodered",
+                    "name": "nodered",
+                    "packages": [],
+                    "typeDefinitions": [
+                        {
+                            "class": "org.kevoree.ComponentType@name=MQTTOut,version=1.0.0",
+                            "abstract": "false",
+                            "name": "MQTTOut",
+                            "version": "1.0.0",
+                            "deployUnits": [
+                                "/packages[org]/packages[nodered]/deployUnits[hashcode=,name=kevoree-comp-mqttout,version=1.0.0]"
+                            ],
+                            "superTypes": [],
+                            "dictionaryType": [
+                                {
+                                    "class": "org.kevoree.DictionaryType@0.26284900400787591442305460689",
+                                    "generated_KMF_ID": "0.26284900400787591442305460689",
+                                    "attributes": [
+                                        {
+                                            "class": "org.kevoree.DictionaryAttribute@password",
+                                            "fragmentDependant": "false",
+                                            "optional": "true",
+                                            "name": "password",
+                                            "state": "false",
+                                            "datatype": "STRING",
+                                            "defaultValue": "",
+                                            "genericTypes": []
+                                        },
+                                        {
+                                            "class": "org.kevoree.DictionaryAttribute@username",
+                                            "fragmentDependant": "false",
+                                            "optional": "true",
+                                            "name": "username",
+                                            "state": "false",
+                                            "datatype": "STRING",
+                                            "defaultValue": "",
+                                            "genericTypes": []
+                                        },
+                                        {
+                                            "class": "org.kevoree.DictionaryAttribute@clientID",
+                                            "fragmentDependant": "false",
+                                            "optional": "true",
+                                            "name": "clientID",
+                                            "state": "false",
+                                            "datatype": "STRING",
+                                            "defaultValue": "",
+                                            "genericTypes": []
+                                        },
+                                        {
+                                            "class": "org.kevoree.DictionaryAttribute@retain",
+                                            "fragmentDependant": "false",
+                                            "optional": "true",
+                                            "name": "retain",
+                                            "state": "false",
+                                            "datatype": "BOOLEAN",
+                                            "defaultValue": "false",
+                                            "genericTypes": []
+                                        },
+                                        {
+                                            "class": "org.kevoree.DictionaryAttribute@qos",
+                                            "fragmentDependant": "false",
+                                            "optional": "true",
+                                            "name": "qos",
+                                            "state": "false",
+                                            "datatype": "INT",
+                                            "defaultValue": "0",
+                                            "genericTypes": []
+                                        },
+                                        {
+                                            "class": "org.kevoree.DictionaryAttribute@topic",
+                                            "fragmentDependant": "false",
+                                            "optional": "true",
+                                            "name": "topic",
+                                            "state": "false",
+                                            "datatype": "STRING",
+                                            "defaultValue": "",
+                                            "genericTypes": []
+                                        },
+                                        {
+                                            "class": "org.kevoree.DictionaryAttribute@port",
+                                            "fragmentDependant": "false",
+                                            "optional": "false",
+                                            "name": "port",
+                                            "state": "false",
+                                            "datatype": "INT",
+                                            "defaultValue": "",
+                                            "genericTypes": []
+                                        },
+                                        {
+                                            "class": "org.kevoree.DictionaryAttribute@broker",
+                                            "fragmentDependant": "false",
+                                            "optional": "false",
+                                            "name": "broker",
+                                            "state": "false",
+                                            "datatype": "STRING",
+                                            "defaultValue": "",
+                                            "genericTypes": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "metaData": [
+                                {
+                                    "class": "org.kevoree.Value@description",
+                                    "name": "description",
+                                    "value": "Default README generated by `generator-kevoree`, a `yo` generator for [__kevoree-js__](https://github.com/kevoree/kevoree-js)"
+                                }
+                            ],
+                            "required": [],
+                            "provided": [
+                                {
+                                    "class": "org.kevoree.PortTypeRef@in",
+                                    "noDependency": "true",
+                                    "optional": "true",
+                                    "name": "in",
+                                    "ref": [],
+                                    "mappings": []
+                                }
+                            ]
+                        }
+                    ],
+                    "deployUnits": [
+                        {
+                            "class": "org.kevoree.DeployUnit@hashcode=,name=kevoree-comp-mqttout,version=1.0.0",
+                            "name": "kevoree-comp-mqttout",
+                            "hashcode": "",
+                            "url": "",
+                            "version": "1.0.0",
+                            "requiredLibs": [],
+                            "filters": [
+                                {
+                                    "class": "org.kevoree.Value@platform",
+                                    "name": "platform",
+                                    "value": "javascript"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "typeDefinitions": [],
+            "deployUnits": []
+        }
+    ]
+}
